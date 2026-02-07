@@ -59,21 +59,21 @@ Output: Stereo output via 3mm jack.
 Channels: 32 channels ( sfx or ogg in any combination ).
 
 ## Cores
-APU - Dedicated audio processor. [ [src](sw/apu) ] [ [uf2]([firmware/apu.uf2]) ]
+APU - Dedicated audio processor. [ [src](sw/apu) ] [ [uf2](firmware/apu.uf2) ]
 
 System - Game processor for game logic, building graphics and audio commands.  [ [demos](sw/demos) ] 
 
-VDP1 - Graphics tile generator.  [ [src](sw/vdp1) ] [ [uf2]([firmware/vdp1.uf2]) ]
+VDP1 - Graphics tile generator.  [ [src](sw/vdp1) ] [ [uf2](firmware/vdp1.uf2) ]
 
-VDP2 - Tile compositor and DVI output.  [ [src](sw/vdp2) ] [ [uf2]([firmware/vdp2.uf2]) ]
+VDP2 - Tile compositor and DVI output.  [ [src](sw/vdp2) ] [ [uf2](firmware/vdp2.uf2) ]
 
 ## Examples
 
-gfx_demo [ [src](sw/demos/gfx_demo) ] [ [uf2]([firmware/gfx_demo.uf2]) ]
+gfx_demo [ [src](sw/demos/gfx_demo) ] [ [uf2](firmware/gfx_demo.uf2) ]
 
 ![](docs/images/gfx_demo1.gif)
 
-input_demo  [ [src](sw/demos/gfx_demo) ] [ [uf2]([firmware/gfx_demo.uf2]) ]
+input_demo  [ [src](sw/demos/gfx_demo) ] [ [uf2](firmware/gfx_demo.uf2) ]
 
 ![](docs/images/input_demo1.gif)
 
@@ -104,7 +104,7 @@ This is what the fully assembled breadboard looks like:
 
 ![](docs/images/breadboard_assembled.jpg)
 
-See [docs/guides/picocom16-breadboard/Build-guide.md]([docs/guides/picocom16-breadboard/Build-guide.md])
+See [docs/guides/picocom16-breadboard/Build-guide.md](docs/guides/picocom16-breadboard/Build-guide.md)
 
 
 ## System dependencies
