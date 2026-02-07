@@ -77,7 +77,7 @@ input_demo  [ [src](sw/demos/gfx_demo) ] [ [uf2](firmware/gfx_demo.uf2) ]
 
 ![](docs/images/input_demo1.gif)
 
-minerload   [ [url]( [https://picocom16.itch.io/minerload) ]
+minerload   [ [demo](https://picocom16.itch.io/minerload) ] [ [uf2](firmware/minerload.uf2) ]
 
 ![](docs/images/minerload1.gif)
 
