@@ -1,0 +1,534 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ff081d2d-ed25-4d33-8927-58b0fece35dc")
+	(paper "A4")
+	(lib_symbols)
+	(polyline
+		(pts
+			(xy 12.7 16.51) (xy 63.5 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01d73e9b-4436-4f65-83fa-775e26525ad5")
+	)
+	(polyline
+		(pts
+			(xy 63.5 12.7) (xy 63.5 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "610fe090-a9dd-4c3e-b292-f119ef0335e2")
+	)
+	(image
+		(at 207.01 68.58)
+		(scale 9.33899)
+		(uuid "92331055-3759-4332-8359-f2b4e1ebc1aa")
+		(data "iVBORw0KGgoAAAANSUhEUgAAAJMAAABnCAMAAAAzOIAoAAAAAXNSR0IArs4c6QAAAGBQTFRFAAAA"
+			"IiA0RSg8Zjkxj1Y733Em2aBm7sOa+/I2meVQar4wN5RuS2kvUkskMjw5Pz90MGCCW27hY5v/X83k"
+			"y9v8////m623hH6HaWpqWVZSdkKKrDIy2Vdj13u6j5dKim8w+2O8zwAAACB0Uk5TAP//////////"
+			"//////////////////////////////+Smq12AAADh0lEQVRoge2bzW7sIAyFw2I67cqVsora93/O"
+			"2yZA+LOxATNcqV5MoyrtfDo+Y4zJbNtPGEaAAW5sYQB8/kT0q/2KDxfvP/F8Pt/eHo+HvYWB4y6S"
+			"QDEDIvj8hdr3lGj/2AOkX6iT6fHNEwnAXzDjuJEunXYPtftwSJFOj+8vZuJCvlioMucRygRlpih1"
+			"MVMrEinacdwyOZ32RKYMyjF9iZgSEhwrZLJ+yphiPz2bmSKdKKUEOmV+4jJBxkTHzeT9lOkUpa4h"
+			"d+1MTD/JPX5WA0hyRyH1+EnABBeYmInnp6hm8lMXM3Fzx/RTtLbwgMAW8/B9DWEwpk5bOVg6XW+f"
+			"FygUiumnPiawUJlSULSWik7I3Ui0+knEJEPatiNBUtBJipRCceuTgEmORDAN0mkk0yg/NTCp+6mb"
+			"SaE+DWWS9ZlzmFCdkH58BZ0K+xZtj+OfO2R/N4FJ3meWe9+hTFI/zWCS9pkTmJh+0tepa9+yjJ/0"
+			"c6ewDx7J9P/5yf355NxRfrr/vj7DmKWThEkMBSgT6af7HzTPxNz+zl2fr8XQ0AmHAjdksS9lJAU/"
+			"kULdEw10qsFe73zq2nN3iuTmY8YB5VgK6x1FZecr4Tgj10reF7Qx+dnOhRaMM/LpimS9e2+dZzoq"
+			"nzp6KK3QZ6I6EWcvL/RTwMdjGtVn8uRiMg3qx+tclUn5LD/FStEnG6xzKdn+rowC8VX9CKj5/E6u"
+			"U6gYjUSfcyJ+2uRMcJeDS7McaQuDeR5cnaucb7a9LhZEQpheivTH1MMEf0xNTOUEG181DV6flJhQ"
+			"IntvpWpqMBXEoZG6oRqYajLpMIW1gEZC1uE+qCamIHu1zmAaU4SG7zmnMkHwk9gHT2W67gFT2gNP"
+			"Z3JTC3dtnzp4JVM6uKDHT3OY0n2dWaA+gX/wwj2WoZC5ptxZDPr5meFMgH7uTqr+dx3IdDlIG0mo"
+			"05kwbSQBkytK6jKJ/QQT9g9CpsVy57P3GiakPtnR73JMM/ajYqalcucagZVqgV9wV2JyD4kuxGSW"
+			"W++COaa6Ujwm8JnzdETvqz4vsEy2wTRBU47PyDX2CKXc3T3v3Ygb9NSlC4rLFD9nb+h9y0QmoDmG"
+			"QbGZsolc5WhqDhP3ywgn0hwmUfZmMEGUuzqULtNmkXyVZMhkJjCBmGp80YTsjuDrLVUg081UgErX"
+			"2ODcNTI7xmSO7lW6hpTeUs1bp0j/AEDcI3jQpEDLAAAAAElFTkSuQmCC"
+		)
+	)
+	(text "VDP2"
+		(exclude_from_sim no)
+		(at 27.686 67.818 0)
+		(effects
+			(font
+				(size 3.2512 3.2512)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "01d4afb7-83b9-4836-bd44-1142a6df1ebc")
+	)
+	(text "Main application processor"
+		(exclude_from_sim no)
+		(at 28.194 153.924 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "0dd93c13-0769-4c68-b7fd-5fcbbbb2c6ad")
+	)
+	(text "Audio output"
+		(exclude_from_sim no)
+		(at 28.194 91.186 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "10c97433-14c0-4cd7-8f5c-3e67ec26261f")
+	)
+	(text "Built in multi debug processor & host interface"
+		(exclude_from_sim no)
+		(at 28.448 175.006 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "3586c76e-e6c9-4a0b-addf-8e30a96477e4")
+	)
+	(text "PICOCOM16 / ROOT"
+		(exclude_from_sim no)
+		(at 22.352 14.478 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5513f13e-e474-4b5b-a288-1bdcf550ef0b")
+	)
+	(text "Video output & background gpu"
+		(exclude_from_sim no)
+		(at 27.432 72.644 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "56983218-cc88-4a96-8456-c062ac15e3e5")
+	)
+	(text "Video output & background gpu"
+		(exclude_from_sim no)
+		(at 27.686 53.086 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "65d8f8fb-accc-495e-9d31-584a37a53a02")
+	)
+	(text "VDP1"
+		(exclude_from_sim no)
+		(at 28.448 107.188 0)
+		(effects
+			(font
+				(size 3.2512 3.2512)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "7b83f9a5-1af6-4e23-ae98-4005b47e6c7c")
+	)
+	(text "IO & PSU"
+		(exclude_from_sim no)
+		(at 26.924 48.514 0)
+		(effects
+			(font
+				(size 3.2512 3.2512)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "8c86a640-a13b-449e-aaed-9e7a91de87f5")
+	)
+	(text "16bit retro fantasy video game console based the RP2350"
+		(exclude_from_sim no)
+		(at 23.876 34.544 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "929df87b-0b7d-4d4e-9b8e-0ec5b7e5184a")
+	)
+	(text "APP"
+		(exclude_from_sim no)
+		(at 27.94 150.114 0)
+		(effects
+			(font
+				(size 3.2512 3.2512)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "9d3bec05-c4ae-4dd7-bc1d-d8924dc2fcec")
+	)
+	(text "Picocom16 root"
+		(exclude_from_sim no)
+		(at 18.034 18.288 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "a7c41e9a-67c8-4e4c-a3d7-b4f5e65dfba9")
+	)
+	(text "Main video processor"
+		(exclude_from_sim no)
+		(at 28.702 110.998 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "aeb2eb5f-7f00-4d4b-ba64-4afe4720365e")
+	)
+	(text "DBG"
+		(exclude_from_sim no)
+		(at 28.194 171.196 0)
+		(effects
+			(font
+				(size 3.2512 3.2512)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "c220e4cb-4bbf-4a6b-95a8-3fc3250c059d")
+	)
+	(text "APU"
+		(exclude_from_sim no)
+		(at 28.702 127.508 0)
+		(effects
+			(font
+				(size 3.2512 3.2512)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "c531e529-7f3d-4ddb-b3ce-057f5630fcce")
+	)
+	(text "PICOCOM16"
+		(exclude_from_sim no)
+		(at 37.592 30.734 0)
+		(effects
+			(font
+				(size 3.2512 3.2512)
+			)
+		)
+		(uuid "ee6b6108-fa83-4182-84ed-b9262fe65e85")
+	)
+	(text "DAC"
+		(exclude_from_sim no)
+		(at 27.686 87.376 0)
+		(effects
+			(font
+				(size 3.2512 3.2512)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "ef5b9642-fc53-4c0c-bedb-ef56b18b7441")
+	)
+	(text "Audio processor"
+		(exclude_from_sim no)
+		(at 28.956 131.318 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "f350b99f-6790-4f71-a396-3bf528ddc58a")
+	)
+	(sheet
+		(at 24.13 144.78)
+		(size 101.6 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0eb109c6-605d-443f-996d-dc8f40fbc3e9")
+		(property "Sheetname" "APP"
+			(at 24.13 144.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "picocom16_app.kicad_sch"
+			(at 24.13 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "picocom16_pcb"
+				(path "/ff081d2d-ed25-4d33-8927-58b0fece35dc"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 43.18)
+		(size 101.6 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3cf3945c-a16c-4f20-a4e7-5696455951e6")
+		(property "Sheetname" "IO"
+			(at 24.13 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "picocom16_io.kicad_sch"
+			(at 24.13 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "picocom16_pcb"
+				(path "/ff081d2d-ed25-4d33-8927-58b0fece35dc"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 121.92)
+		(size 101.6 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8861d1dd-040c-4b6f-9945-b4697023dd56")
+		(property "Sheetname" "APU"
+			(at 24.13 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "picocom16_apu.kicad_sch"
+			(at 24.13 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "picocom16_pcb"
+				(path "/ff081d2d-ed25-4d33-8927-58b0fece35dc"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 81.28)
+		(size 101.6 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9521072d-d1bc-4d89-9922-322493f4bf3f")
+		(property "Sheetname" "DAC"
+			(at 24.13 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "picocom_dac.kicad_sch"
+			(at 24.13 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "picocom16_pcb"
+				(path "/ff081d2d-ed25-4d33-8927-58b0fece35dc"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 62.23)
+		(size 101.6 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b3c27472-dd4d-4bad-a61b-4ddd46e8cc9f")
+		(property "Sheetname" "VDP2"
+			(at 24.13 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "picocom16_vdp2.kicad_sch"
+			(at 24.13 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "picocom16_pcb"
+				(path "/ff081d2d-ed25-4d33-8927-58b0fece35dc"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 101.6)
+		(size 101.6 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e37520b8-cb55-4c25-bf98-9cd7b088a45c")
+		(property "Sheetname" "VDP1"
+			(at 24.13 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "picocom16_vdp1.kicad_sch"
+			(at 24.13 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "picocom16_pcb"
+				(path "/ff081d2d-ed25-4d33-8927-58b0fece35dc"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 166.37)
+		(size 101.6 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ef30b14d-c4be-49a3-8494-3081e2504ebf")
+		(property "Sheetname" "DBG"
+			(at 24.13 165.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "picocom16_dbg.kicad_sch"
+			(at 24.13 179.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "picocom16_pcb"
+				(path "/ff081d2d-ed25-4d33-8927-58b0fece35dc"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
