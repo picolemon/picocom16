@@ -83,7 +83,7 @@ minerload   [ [demo](https://picocom16.itch.io/minerload) ] [ [uf2](firmware/min
 
 ## Components BOM
 
-All components are faily command and can be source from amazon or other suppliers.
+All components can be source from amazon or other suppliers.
 
     1 x Breadboard kit - SUNFOUNDER 5PCS Breadboards Kit Include 3PCS 830 Point 2PCS 400 Point Solderless Breadboard Compatible with Arduino Proto Shield Distribution Connecting Blocks 
 
