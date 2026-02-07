@@ -1,0 +1,112 @@
+; =================================================
+; OPI (8bit per clock)
+; =================================================
+.program bus_rx_8b
+
+public start:
+    nop
+    wait 1 pin 9        ; wait for select 1
+.wrap_target
+
+    wait 1 pin 8        ; clk = 1
+    wait 0 pin 8        ; clk = 0
+    in pins 8              
+ 
+.wrap
+
+; =================================================
+; DPI (2bit per clock)
+; =================================================
+.program bus_rx_2b
+
+public start:
+    nop
+    wait 1 pin 3        ; wait for select 1
+.wrap_target
+
+    wait 1 pin 2        ; clk = 1
+    wait 0 pin 2        ; clk = 0
+    in pins 2              
+ 
+    wait 1 pin 2        ; clk = 1
+    wait 0 pin 2        ; clk = 0
+    in pins 2         
+ 
+    wait 1 pin 2        ; clk = 1
+    wait 0 pin 2        ; clk = 0
+    in pins 2         
+ 
+    wait 1 pin 2        ; clk = 1
+    wait 0 pin 2        ; clk = 0
+    in pins 2         
+        
+.wrap
+
+
+; =================================================
+; QPI (4bit per clock)
+; =================================================
+.program bus_rx_4b
+
+public start:
+    nop
+    wait 1 pin 5        ; wait for select 1
+.wrap_target
+
+    wait 1 pin 4        ; clk = 1
+    wait 0 pin 4        ; clk = 0
+    in pins 4              
+ 
+    wait 1 pin 4        ; clk = 1
+    wait 0 pin 4        ; clk = 0
+    in pins 4         
+    
+.wrap
+
+
+; =================================================
+; SPI (1bit per clock)
+; =================================================
+.program bus_rx_1b
+
+public start:
+    nop
+    wait 1 pin 2        ; wait for select 1
+.wrap_target
+
+    wait 1 pin 1        ; clk = 1
+    wait 0 pin 1        ; clk = 0
+    in pins 1              
+
+    wait 1 pin 1        ; clk = 1
+    wait 0 pin 1        ; clk = 0
+    in pins 1              
+
+    wait 1 pin 1        ; clk = 1
+    wait 0 pin 1        ; clk = 0
+    in pins 1              
+
+    wait 1 pin 1        ; clk = 1
+    wait 0 pin 1        ; clk = 0
+    in pins 1     
+
+    wait 1 pin 1        ; clk = 1
+    wait 0 pin 1        ; clk = 0
+    in pins 1              
+
+    wait 1 pin 1        ; clk = 1
+    wait 0 pin 1        ; clk = 0
+    in pins 1              
+
+    wait 1 pin 1        ; clk = 1
+    wait 0 pin 1        ; clk = 0
+    in pins 1              
+
+    wait 1 pin 1        ; clk = 1
+    wait 0 pin 1        ; clk = 0
+    in pins 1     
+.wrap
+
+
+
+

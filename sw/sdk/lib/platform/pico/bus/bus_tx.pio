@@ -1,0 +1,131 @@
+; =================================================
+; SPI (1bit per clock)
+; =================================================
+.program bus_tx_1b  
+.side_set 2 opt           ;    //- CS, CLK
+
+jmp                 idle_disarmed           ; [default] disarm, tx needs to jump to byteloop
+
+public byteloop:    
+    nop                 side 0b11           ; dummy, cs = 1
+    pull                side 0b11           ; clk = 1, wait data
+
+    out pins, 1         side 0b11           ; [3] clk = 1, sample    
+    nop                 side 0b10           ; [3] rx push, rx jump    
+
+    out pins, 1         side 0b11           ; [3] clk = 1, sample    
+    nop                 side 0b10           ; [3] rx push, rx jump        
+    
+    out pins, 1         side 0b11           ; [3] clk = 1, sample    
+    nop                 side 0b10           ; [3] rx push, rx jump    
+
+    out pins, 1         side 0b11           ; [3] clk = 1, sample    
+    nop                 side 0b10           ; [3] rx push, rx jump      
+
+    out pins, 1         side 0b11           ; [3] clk = 1, sample    
+    nop                 side 0b10           ; [3] rx push, rx jump    
+
+    out pins, 1         side 0b11           ; [3] clk = 1, sample    
+    nop                 side 0b10           ; [3] rx push, rx jump        
+    
+    out pins, 1         side 0b11           ; [3] clk = 1, sample    
+    nop                 side 0b10           ; [3] rx push, rx jump    
+
+    out pins, 1         side 0b11           ; [3] clk = 1, sample    
+    nop                 side 0b10           ; [3] rx push, rx jump  
+
+    jmp X-- byteloop    side 0b10           ; loop
+
+public idle_disarmed:
+    nop                 side 0b01           ; cs = 0
+    end:
+    nop
+    jmp end
+
+
+
+; =================================================
+; DPI (2bit per clock)
+; =================================================
+.program bus_tx_2b  
+.side_set 2 opt           ;    //- CS, CLK
+
+jmp                 idle_disarmed           ; [default] disarm, tx needs to jump to byteloop
+
+public byteloop:    
+    nop                 side 0b11           ; dummy, cs = 1
+    pull                side 0b11           ; clk = 1, wait data
+
+    out pins, 2         side 0b11           ; [3] clk = 1, sample    
+    nop                 side 0b10           ; [3] rx push, rx jump    
+
+    out pins, 2         side 0b11           ; [3] clk = 1, sample    
+    nop                 side 0b10           ; [3] rx push, rx jump        
+    
+    out pins, 2         side 0b11           ; [3] clk = 1, sample    
+    nop                 side 0b10           ; [3] rx push, rx jump    
+
+    out pins, 2         side 0b11           ; [3] clk = 1, sample    
+    nop                 side 0b10           ; [3] rx push, rx jump      
+
+    jmp X-- byteloop    side 0b10           ; loop
+
+public idle_disarmed:
+    nop                 side 0b01           ; cs = 0
+    end:
+    nop
+    jmp end
+
+
+
+; =================================================
+; OPI (8bit per clock)
+; =================================================
+.program bus_tx_8b  
+.side_set 2 opt           ;    //- CS, CLK
+
+jmp                 idle_disarmed           ; [default] disarm, tx needs to jump to byteloop
+
+public byteloop:    
+    nop                 side 0b11           ; dummy, cs = 1
+    pull                side 0b11           ; clk = 1, wait data
+
+    out pins, 8         side 0b11           ; [3] clk = 1, sample    
+    nop                 side 0b10           ; [3] rx push, rx jump    
+
+    jmp X-- byteloop    side 0b10           ; loop
+
+public idle_disarmed:
+    nop                 side 0b01           ; cs = 0
+    end:
+    nop
+    jmp end
+
+
+; =================================================
+; QPI (4bit per clock)
+; =================================================
+.program bus_tx_4b  
+.side_set 2 opt           ;    //- CS, CLK
+
+jmp                 idle_disarmed           ; [default] disarm, tx needs to jump to byteloop
+
+public byteloop:    
+    nop                 side 0b11           ; dummy, cs = 1
+    pull                side 0b11           ; clk = 1, wait data
+
+    out pins, 4         side 0b11           ; [3] clk = 1, sample    
+    nop                 side 0b10           ; [3] rx push, rx jump    
+
+    out pins, 4         side 0b11           ; [3] clk = 1, sample    
+    nop                 side 0b10           ; [3] rx push, rx jump        
+    
+    jmp X-- byteloop    side 0b10           ; loop     
+    
+public idle_disarmed:    
+    nop                 side 0b01           ; cs = 0
+    end:
+    nop                 side 0b01           ; cs = 0
+    jmp end             side 0b01           ; cs = 0
+
+
