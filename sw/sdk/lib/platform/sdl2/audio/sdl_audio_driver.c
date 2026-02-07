@@ -118,8 +118,7 @@ static inline void audioCallback(void * userdata, uint8_t* streamOutPtr, int len
             if(!ac->currentBuffer)
             {            
                 while(!queue_try_remove(&ac->outputPool, &ac->currentBuffer))
-                {
-                    // HOLY FUCKING SHIT, this has a fucking mutex to guard the cunt yet still getting zero   
+                {                    
                     // NOTE: this is a an ongoing bug but no idea how to fix this, first attempt was the mutex but seems to be accessed by another thread somehow?  
                     test_core_apu_render_audio();
                     ac->starveCnt++;
