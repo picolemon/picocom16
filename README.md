@@ -97,10 +97,10 @@ All components are faily command and can be source from amazon or other supplier
 
     1 x Adafruit DVI Breakout Board - For HDMI Source Devices 
 
-    18pcs USB to DIP Breakout Adapter Converter Mini 5p USB/2.54 mm 4p/USB 2.0 4p/USB 3.0 Flat/Micro USB Type B/USB Type-B Square PCB Power Breakout Board Module
+    1 x 18pcs USB to DIP Breakout Adapter Converter Mini 5p USB/2.54 mm 4p/USB 2.0 4p/USB 3.0 Flat/Micro USB Type B/USB Type-B Square PCB Power Breakout Board Module
 
 ## Build guide
-This is what the fully assembled breadboard lookss like:
+This is what the fully assembled breadboard looks like:
 
 ![](docs/images/breadboard_assembled.jpg)
 
