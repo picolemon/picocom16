@@ -1,0 +1,11 @@
+{    
+    "outputType": "inline",
+    "outputFilename": "textures.inl",
+    "symbol": "textures",
+    "id": 2,
+    "eg_assets":[
+        {        
+            "file": "textures/blob0.png", "id": "blob0", "type": "texture", "format": "16BPP"            
+        }
+    ]
+}   

@@ -1,0 +1,14 @@
+{    
+    "outputType": "inline",
+    "outputFilename": "models.inl",
+    "symbol": "models",
+    "id": 4,
+    "assets":[
+        {        
+            "file": "models/trex/T_Rex_1_FBX_LOW.fbx.obj", "id": "trex0", "type": "model", "format": "obj"  
+        },
+        {        
+            "file": "models/cube.obj", "id": "cube0", "type": "model", "format": "obj"  
+        }        
+    ]
+}
