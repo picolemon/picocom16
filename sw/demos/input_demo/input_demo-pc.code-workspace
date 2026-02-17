@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "projects/input_demo-pc"
+		},
+		{
+			"path": "src"
+		},
+		{
+			"path": "../../sdk"
+		},
+		{
+			"path": "assets"
+		}
+	]
+}

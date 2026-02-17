@@ -1,0 +1,11 @@
+{    
+    "outputType": "inline",
+    "outputFilename": "fonts.inl",
+    "symbol": "fonts",
+    "id": 1,
+    "assets":[
+        {        
+            "file": "fonts/cozette.bdf", "id": "defaultFont", "type": "font", "format": "1BPP", "charmap":".abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWZYZ[]0123456789"
+        }
+    ]
+}   

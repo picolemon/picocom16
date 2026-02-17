@@ -1,0 +1,32 @@
+## REF MAKE, will use cmake 
+
+
+SRC_DIR := ../src
+OBJ_DIR := ../build/obj
+EXT_DIR := ../external
+BUILD_DIR := ../build
+
+RELEASE_DIR := ../release
+RELEASE_OBJ_DIR := ../release/obj
+
+SRC_FILES := $(wildcard $(SRC_DIR)/**/*.cpp) $(wildcard $(SRC_DIR)/*.cpp)
+OBJ_FILES := $(patsubst $(SRC_DIR)/%.cpp,$(OBJ_DIR)/%.o,$(SRC_FILES))
+RELEASE_OBJ_FILES := $(patsubst $(SRC_DIR)/%.cpp,$(RELEASE_OBJ_DIR)/%.o,$(SRC_FILES))
+
+LIBRAIRIES := -lSDL2main -lSDL2 -lGLEW  -lGLU -lGL
+
+# Target, with all .o prerequisites
+Tetris: $(OBJ_FILES)
+	g++ -g -o $(BUILD_DIR)/$@ $^ $(LIBRAIRIES)
+
+# Each .o file finds his .cpp counterpart
+$(OBJ_DIR)/%.o: $(SRC_DIR)/%.cpp
+	g++ -std=c++17 -g -Wall -Wextra -c -o $@ $<
+
+# Release target
+release: $(RELEASE_OBJ_FILES)
+	g++ -O3 -mwindows -o $(RELEASE_DIR)\Tetris $^
+
+# Each .o file finds his .cpp counterpart, with optimisations
+$(RELEASE_OBJ_DIR)/%.o: $(SRC_DIR)/%.cpp
+	g++ -std=c++17 -O3 -Wall -Wextra -c -o $@ $<

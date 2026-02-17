@@ -1,0 +1,11 @@
+{    
+    "outputType": "inline",
+    "outputFilename": "sounds.inl",
+    "symbol": "sounds",
+    "id": 4,
+    "eg_assets":[
+        {        
+            "file": "sounds/tele_active0.raw", "id": "tele_active0", "type": "embed", "noheader":false, "format": "bin", "desc": ""          
+        }
+    ]
+}   

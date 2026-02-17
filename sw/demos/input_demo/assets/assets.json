@@ -1,0 +1,7 @@
+{    
+    "includes": [
+        {"filename":"fonts.json"}, 
+        {"filename":"textures.json"},
+        {"filename":"sounds.json"}
+    ]
+}
